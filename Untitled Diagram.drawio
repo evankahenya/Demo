@@ -1,9 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="I9CYXgJEfsnaPuvc8X5f">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dilf7zjEC500wKTw47Jp-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="475" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-1" value="IPSL MAKES&lt;div&gt;REQUEST TO FAMILYBANK ENDPOINT&lt;/div&gt;&lt;div&gt;admi.004&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-2" value="Family bank endpoint" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dilf7zjEC500wKTw47Jp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-5" value="Admi.004" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=18.620689655172413;endSize=5.6689655172413795;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dilf7zjEC500wKTw47Jp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524.66" y="300" as="sourcePoint" />
+            <mxPoint x="525" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-8" value="Admi.011" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dilf7zjEC500wKTw47Jp-7">
+          <mxGeometry x="-0.25" y="10" relative="1" as="geometry">
+            <mxPoint x="40" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-9" value="admi.004.001.02.xsd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-10" value="/iso20022/async/v1/event-acknowledgement endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="490" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Dilf7zjEC500wKTw47Jp-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="172" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dilf7zjEC500wKTw47Jp-23" value="Validate incoming aganist" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
